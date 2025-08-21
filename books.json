@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "year": 1999,
+    "genres": [
+      "Programming"
+    ],
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "year": 2016,
+    "genres": [
+      "Productivity",
+      "Focus"
+    ],
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "genres": [
+      "Databases",
+      "Distributed-Systems"
+    ],
+    "in_stock": true
+  }
+]
