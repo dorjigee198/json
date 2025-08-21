@@ -40,5 +40,16 @@
       "Self-Help"
     ],
     "in_stock": false
+  },
+  {
+    "id": 6,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "year": 2009,
+    "genres": [
+      "Algorithms",
+      "Computer-Science"
+    ],
+    "in_stock": true
   }
 ]
