@@ -15,4 +15,4 @@ try:
     validate(instance=books_data, schema=books_schema)
     print("✅ books.json is valid according to books.schema.json")
 except jsonschema.exceptions.ValidationError as e:
-    print("❌ Validation error:", e.message)
+    print(" Validation error:", e.message)
