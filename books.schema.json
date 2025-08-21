@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Books Schema",
+  "description": "A schema that defines the structure of books.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "author", "year", "genres", "in_stock"],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "description": "Unique identifier for the book"
+      },
+      "title": {
+        "type": "string",
+        "description": "The title of the book"
+      },
+      "author": {
+        "type": "string",
+        "description": "The author(s) of the book"
+      },
+      "year": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "The year the book was published"
+      },
+      "genres": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of genres/categories"
+      },
+      "in_stock": {
+        "type": "boolean",
+        "description": "Whether the book is available in stock"
+      }
+    },
+    "additionalProperties": false
+  }
+}
